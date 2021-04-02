@@ -1129,6 +1129,7 @@ height:280%;
    margin-left: 155px;
    margin-top: -150px;
    z-index: 1;
+    background-color:#303030;
   }
   .click3{
     display:block;
@@ -1138,6 +1139,7 @@ height:280%;
     margin-left: 207px;
     margin-top: -150px;
     z-index: 1;
+    background-color:#303030;
   }
   .select2{
     display: inline-block;
