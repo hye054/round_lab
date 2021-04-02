@@ -500,6 +500,10 @@ p{
   .review{
     margin-bottom: -80px;
   }
+  .logo img{
+    width:10px;
+    padding-left: 10px;
+  }
 }
 @media screen and (max-width:1200px){
   .icon{
@@ -1072,10 +1076,7 @@ height:280%;
   }
 }
 @media screen and (max-width:500px){
-  .logo img{
-    width:10px;
-    padding-left: 10px;
-  }
+
   .demo{
     height: 550%;
   }
