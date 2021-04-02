@@ -812,7 +812,7 @@ h1 a:hover{
     font-weight:500;
   }
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:800px){
   .slide{
     height:50%;
   }
