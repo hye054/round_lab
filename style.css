@@ -490,7 +490,7 @@ p{
     border: none;
     margin:0;
     position: relative;
-    margin-left:10px;
+    padding-left: 10px;
   }
   .content{
     padding-top: 100px;
