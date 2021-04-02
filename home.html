@@ -6,27 +6,6 @@
   <link type="text/css" rel="stylesheet" href="style.css">
   <link rel = "icon"  sizes = "16x16"  href = "img/R.png"> 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script>
-	$(function(){
-    $('#side-nav').on('show.bs.offcanvas', function (e) {
-      $('#sidenav-overlay').addClass('active');
- 
-      /* Disable scroll */
-      $('.contents').on('scroll touchmove mousewheel', function(e){
-        e.preventDefault();
-        e.stopPropagation();
-        return false;
-      });
-    });
-    $('#sidenav-overlay').click(function() {
-      $('#side-nav').offcanvas('hide');
-      $('#sidenav-overlay').removeClass('active');
- 
-      /* Enable scroll */
-      $('.contents').off('scroll touchmove mousewheel');
-    });
-  });
-  </script>
 </head>
 <body>
   <a href="home.html"><img class="logo" src="img/logo.png"></a>
