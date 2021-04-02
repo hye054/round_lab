@@ -7,16 +7,25 @@
   <link rel = "icon"  sizes = "16x16"  href = "img/R.png"> 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script>
-    event.preventDefault();
-    event.stopPropagation();
-    $("#toggle").click(function(e) {
-		    $('html, body').css({'overflow': 'hidden', 'height': '100%'});
-    $('#element').on('scroll touchmove mousewheel', function(event) {
-      event.preventDefault();
-      event.stopPropagation();
-      return false;
+	$(function(){
+    $('#side-nav').on('show.bs.offcanvas', function (e) {
+      $('#sidenav-overlay').addClass('active');
+ 
+      /* Disable scroll */
+      $('.contents').on('scroll touchmove mousewheel', function(e){
+        e.preventDefault();
+        e.stopPropagation();
+        return false;
+      });
     });
-});
+    $('#sidenav-overlay').click(function() {
+      $('#side-nav').offcanvas('hide');
+      $('#sidenav-overlay').removeClass('active');
+ 
+      /* Enable scroll */
+      $('.contents').off('scroll touchmove mousewheel');
+    });
+  });
   </script>
 </head>
 <body>
