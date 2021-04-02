@@ -1074,7 +1074,7 @@ height:280%;
 @media screen and (max-width:500px){
   .logo img{
     width:10px;
-    margin-left: 10px;
+    padding-left: 10px;
   }
   .demo{
     height: 550%;
