@@ -1072,6 +1072,9 @@ height:280%;
   }
 }
 @media screen and (max-width:500px){
+  .logo{
+    width:10px;
+  }
   .demo{
     height: 550%;
   }
