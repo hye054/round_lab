@@ -490,7 +490,6 @@ p{
     border: none;
     margin:0;
     position: relative;
-    padding-left: 10px;
   }
   .content{
     padding-top: 100px;
@@ -1075,6 +1074,7 @@ height:280%;
 @media screen and (max-width:500px){
   .logo img{
     width:10px;
+    margin-left: 10px;
   }
   .demo{
     height: 550%;
