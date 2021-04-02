@@ -1122,18 +1122,20 @@ height:280%;
     height: 145%;
   }
   .click2{
+    display:block;
    position: absolute;
    width:40px;
    height: 50px;
-   margin-left: 190px;
+   margin-left: 155px;
    margin-top: -150px;
    z-index: 1;
   }
   .click3{
+    display:block;
     position: absolute;
     width:40px;
     height: 50px;
-    margin-left: 250px;
+    margin-left: 207px;
     margin-top: -150px;
     z-index: 1;
   }
