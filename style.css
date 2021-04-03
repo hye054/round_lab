@@ -1178,7 +1178,8 @@ height:280%;
   .best2-1{
     margin-top:0px
   }
-  .best2-1 img,.type-skin img{
+  .best2-1 img,.type-skin img,.type-mask img
+  .type-clean img{
     width:150px;
     margin:0;
     padding:0;
