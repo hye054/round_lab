@@ -4,9 +4,6 @@ html, body{
   margin: 0;
   scroll-behavior: smooth;
 }
-body{
-  overflow-x:hidden;
-  overflow-y:auto;
 p{
   font-size:14px;
   font-family:'Montserrat', sans-serif;
@@ -1178,6 +1175,8 @@ height:280%;
   .content2{
     width:90%;
   }
+  .best2-1{
+    overflow-x:hidden;
   .best2-1 img{
     width:200px;
   }
