@@ -1180,5 +1180,7 @@ height:280%;
   }
   .best2-1 img{
     width:150px;
+    margin:0;
+    padding:0;
   }
 }
