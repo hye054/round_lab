@@ -469,6 +469,9 @@ p{
     width:70%;
     margin-bottom: 100px;
   }
+.info2{
+  display:none;
+}
 @media screen and (max-width:1300px){
   .item img{
     display: block;
@@ -1201,5 +1204,16 @@ height:280%;
   }
   .buy2{
     width:240px;
+  }
+  .info{
+    display:none;
+  }
+  .info2{
+    display: block;
+    float:none;
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: fixed;
+    width:410px;
   }
 }
