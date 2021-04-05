@@ -379,7 +379,7 @@ p{
   }
   .item img{
     float:left;
-    width:300px;
+    width:460px;
     height: auto;
     margin-left:14%;
     margin-top:50px;
@@ -1192,5 +1192,8 @@ height:280%;
   }
   .type-clean{
     margin-top:-50px;
+  }
+  .item img{
+    width:300px;
   }
 }
