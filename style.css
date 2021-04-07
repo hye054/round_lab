@@ -395,7 +395,7 @@ p{
     border-bottom: 1px solid #D2D2D2;
     margin-top: 40px;
   }
-  .btn_{
+  .btn{
     background-color: #E2E2E2;
     border: none;
     border: 1px solid #E2E2E2;
@@ -1216,8 +1216,5 @@ height:280%;
   }
   .buy,.buy2{
     width:300px;
-  }
-  .btn_{
-    margin-top: 10px;
   }
 }
