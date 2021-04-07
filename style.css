@@ -395,7 +395,7 @@ p{
     border-bottom: 1px solid #D2D2D2;
     margin-top: 40px;
   }
-  .btn{
+  .btn_{
     background-color: #E2E2E2;
     border: none;
     border: 1px solid #E2E2E2;
@@ -1119,7 +1119,7 @@ height:280%;
     height: 440%;
   }
   .demo15{
-    height: 820%;
+    height: 945%;
   }
   .demo16{
     height: 145%;
@@ -1217,7 +1217,7 @@ height:280%;
   .buy,.buy2{
     width:300px;
   }
-  .btn{
+  .btn_{
     margin-top: 10px;
   }
 }
